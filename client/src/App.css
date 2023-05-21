@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+
+
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+}
+footer > p > span{
+    color:blueviolet;
+    font-size: 1.5rem;
+}
+.header{
+    background-color: cornflowerblue;
+    padding: 10px 10px;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+.left > a{
+    color: white;
+    font-size: 25px;
+    margin-right: 20px;
+    text-decoration: none;
+}
